@@ -1,0 +1,1 @@
+https://github.com/vrtmrz/obsidian-livesync
