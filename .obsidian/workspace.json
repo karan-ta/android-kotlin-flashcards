@@ -194,9 +194,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb65d2aa99047dbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kotlin/Kotlin Coroutines.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6240d610adb5b804",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b09e2a8e14288b32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Android RecyclerView.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da6fcefb76ad41aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Android Service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ea8d81d0c9ac0a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Android Service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -262,7 +322,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Jetpack Compose.md",
+                "file": "Android/Android Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +339,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Jetpack Compose.md",
+                "file": "Android/Android Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +362,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Jetpack Compose.md"
+                "file": "Android/Android Service.md"
               }
             }
           },
@@ -333,15 +393,21 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "26946b5d94bafdf5",
+  "active": "1ea8d81d0c9ac0a5",
   "lastOpenFiles": [
+    "Android/Android Activity.md",
     "Android/Android General.md",
-    "Kotlin/Kotlin keywords.md",
+    "Android/Android Service.md",
+    "Kotlin/Kotlin General.md",
+    "Android/Android RecyclerView.md",
+    "Interview questions.md",
+    "Android/Android Intents.md",
+    "Kotlin/Kotlin Coroutines.md",
     "Android/Jetpack Compose.md",
+    "Kotlin/Kotlin keywords.md",
     "Kotlin/Kotlin Generics.md",
     "README.md",
     "Kotlin/Kotlin Types.md",
-    "Kotlin/Kotlin General.md",
     "Kotlin/Kotlin Operators.md",
     "Android/Android Fragments.md",
     "Android/Android config.md",
@@ -358,9 +424,6 @@
     "obsidian api.md",
     "Notes.md",
     "2023-08-07.md",
-    "Kotlin-Lambda.md",
-    "Android Kotlin Flashcards.md",
-    "kotlin/Lambdas.md",
     "kotlin"
   ]
 }

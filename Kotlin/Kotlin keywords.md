@@ -156,6 +156,88 @@ what is lazy
 ?
 lazy : means it will be initialized when it is accesed
 
+String interpolation::"Hello $name"
+
+${}
+?
+Arbitary expressions can be used.  
+println ("The value of count is not ${count + 1})
+
+if constructor parameters do not have var or val  
+what are they
+?
+They are construction parameters . not properties.  
+they can be accessed from init block but not from function
+
+what is a kotlin property
+?
+field  
+getter function  
+setter function
+
+protected access modifier::can only be accessed in sub class.  
+not outside.
+
+companion object::If you declare a companion object inside your class , you can access its members using only the class name as the qualifier.
+override example
+?
+open class Shape {  
+open fun draw (){  
+}  
+fun fill (){  
+}  
+}  
+class Circle():Shape(){  
+fun draw (){  
+}  
+fun fill (){  
+  }  
+override fun draw (){  
+  }  
+}
+
+suppose a class is final , but member is declared as open - then what will happen
+?
+no effect
+
+can you override val property with a var property::yes
+
+can you override var property with a val property
+?
+no
+
+can interface have constructor::no
+
+destructive declarations in kotlin
+?
+val (country, city) = capitol  
+println(country) // Prints: England println(city) // Prints: London
+list of pairs example
+?
+val capitols = listOf("England" to "London", "Poland" to "Warsaw")  
+capitols.forEach { (country, city) -> println("Capitol of $country is $city") }  
+val capitols = listOf ("delhi" to "india","sydney" to "australia")for ((c,co) in capitols){println (c)println (co)}
+
+lambda expressions android example
+?
+view.setOnClickListener { println("Click") }
+
+any example
+?
+var title: Any = "Kotlin"  
+title = 12
+
+assignment of nullable type to non nullable type
+?
+var nullableVehicle: Vehicle_question
+var vehicle: Vehicle  
+nullableVehicle = vehicle // 1  
+vehicle = nullableVehicle // 2, Error
+
+
+
+
+
 
 
 
