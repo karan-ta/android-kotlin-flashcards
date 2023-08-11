@@ -32,6 +32,13 @@ code. The user, as part of using the app, will switch from fragment to fragment 
 needed — for example, clicking a button might cause another fragment to be shown  
 on the screen.
 
+what is a service
+?
+service is an application component that facilitates an app to run in the bg for doing long running taks without a ui 
+ 1. foreground  services : notification : eg media ; download 
+ 2. background : 
+ 3. bounded services 
+
 
 
 

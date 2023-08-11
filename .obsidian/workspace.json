@@ -28,30 +28,6 @@
             }
           },
           {
-            "id": "ebe3612a3e82ca12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "knowledge management.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9f272edec88caeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "knowledge management.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "cf97c489d439d103",
             "type": "leaf",
             "state": {
@@ -213,14 +189,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotlin/Kotlin keywords.md",
+                "file": "Android/Jetpack Compose.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 17
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -286,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kotlin/Kotlin keywords.md",
+                "file": "Android/Jetpack Compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kotlin/Kotlin keywords.md",
+                "file": "Android/Jetpack Compose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -326,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kotlin/Kotlin keywords.md"
+                "file": "Android/Jetpack Compose.md"
               }
             }
           },
@@ -359,16 +335,16 @@
   },
   "active": "26946b5d94bafdf5",
   "lastOpenFiles": [
+    "Android/Android General.md",
+    "Kotlin/Kotlin keywords.md",
+    "Android/Jetpack Compose.md",
+    "Kotlin/Kotlin Generics.md",
     "README.md",
     "Kotlin/Kotlin Types.md",
     "Kotlin/Kotlin General.md",
     "Kotlin/Kotlin Operators.md",
-    "Kotlin/Kotlin keywords.md",
-    "Android/Android General.md",
-    "Android/Jetpack Compose.md",
     "Android/Android Fragments.md",
     "Android/Android config.md",
-    "Kotlin/Kotlin Generics.md",
     "Kotlin/Kotlin Functions.md",
     "Kotlin/kotlin lambda.md",
     "Kotlin/kotlin extension functions.md",

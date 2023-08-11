@@ -125,6 +125,44 @@ get type of a variable named images
 ?
 println("${images_coloncolonclass.simpleName}")
 
+find size of arraylist::size property of arrayList
+
+for loop from and to a number
+?
+for (i in 1..3) {  
+println(i)  
+}
+
+for loop downward
+?
+for (i in 6 downTo 0 step 2) {  
+println(i)  
+}
+
+What is inline function 
+?
+inline function : function defined as inline its entire content will be copied to the plaes where it is called when this kotlin code is decompiled to java 
+use it when funtion is small and is called only in few places
+
+what is noinline
+?
+noinline  is in case you want a param out of two params on an inline function to be be inlined
+
+what is lateinit
+?
+lateinit means we can initialize it before accesing 
+
+what is lazy
+?
+lazy : means it will be initialized when it is accesed
+
+
+
+
+
+
+	
+
 
 
 
