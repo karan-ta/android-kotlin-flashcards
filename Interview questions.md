@@ -19,6 +19,8 @@ work manager example
 
 in recyclerview - how do you color alternate rows in the list
 
+what is deep linking
+
 
 
 

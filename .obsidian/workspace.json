@@ -254,9 +254,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3477425e76cf6f5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Android General.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28d348398952bc7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Android Service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0069731fb552f3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Android Intents.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79b3720074579c98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android Permissions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 20
+        "currentTab": 24
       }
     ],
     "direction": "vertical"
@@ -322,7 +370,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android/Android Service.md",
+                "file": "Android Permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -339,7 +387,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android/Android Service.md",
+                "file": "Android Permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -362,7 +410,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android/Android Service.md"
+                "file": "Android Permissions.md"
               }
             }
           },
@@ -393,37 +441,37 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "1ea8d81d0c9ac0a5",
+  "active": "79b3720074579c98",
   "lastOpenFiles": [
-    "Android/Android Activity.md",
+    "Android/Android Fragments.md",
+    "Android Permissions.md",
+    "Android/Android Intents.md",
+    "Android/Android Broadcast.md",
     "Android/Android General.md",
     "Android/Android Service.md",
-    "Kotlin/Kotlin General.md",
-    "Android/Android RecyclerView.md",
-    "Interview questions.md",
-    "Android/Android Intents.md",
-    "Kotlin/Kotlin Coroutines.md",
-    "Android/Jetpack Compose.md",
     "Kotlin/Kotlin keywords.md",
-    "Kotlin/Kotlin Generics.md",
-    "README.md",
+    "Kotlin/Kotlin General.md",
+    "Kotlin OOPS.md",
     "Kotlin/Kotlin Types.md",
+    "README.md",
+    "Interview questions.md",
+    "Android/Android WorkManager.md",
+    "Kotlin/Kotlin Coroutines.md",
+    "Coding/Coding General.md",
+    "Android/Android Activity.md",
+    "Android/Android RecyclerView.md",
+    "Android/Jetpack Compose.md",
+    "Kotlin/Kotlin Generics.md",
     "Kotlin/Kotlin Operators.md",
-    "Android/Android Fragments.md",
     "Android/Android config.md",
     "Kotlin/Kotlin Functions.md",
     "Kotlin/kotlin lambda.md",
     "Kotlin/kotlin extension functions.md",
     "Kotlin Extension function.md",
-    "Coding/Coding General.md",
     "Coding",
     "Android",
     "Kotlin",
     "SRS.md",
-    "knowledge management.md",
-    "obsidian api.md",
-    "Notes.md",
-    "2023-08-07.md",
     "kotlin"
   ]
 }

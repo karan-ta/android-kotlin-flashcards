@@ -6,12 +6,12 @@ tags: review
 in which method you will save the data when app goes in background
 ?
 onSaveInstanceState
-<!--SR:!2023-08-13,4,270-->
+<!--SR:!2023-08-30,17,290-->
 
 In which scenario onDestroy will be called directly after onCreate
 ?
 when finish is called in onCreate
-<!--SR:!2023-08-13,4,270-->
+<!--SR:!2023-08-28,15,290-->
 
 What is apk::Android executable format
 
@@ -31,6 +31,7 @@ Many apps might consist of a single activity, with each different
 code. The user, as part of using the app, will switch from fragment to fragment as  
 needed — for example, clicking a button might cause another fragment to be shown  
 on the screen.
+<!--SR:!2023-08-16,3,254-->
 
 what is a service
 ?
@@ -38,6 +39,7 @@ service is an application component that facilitates an app to run in the bg for
  1. foreground  services : notification : eg media ; download 
  2. background : 
  3. bounded services 
+<!--SR:!2023-08-17,4,274-->
 
 What is viewmodel
 ?
@@ -64,6 +66,7 @@ name,icon,permissions, allow device wide backups.
 4 types of components
 ?
 activities,services,content providers, broadcast receivers
+<!--SR:!2023-08-17,4,274-->
 
 intent-filter
 ?
@@ -90,6 +93,53 @@ how to compile kotlin code
 Viewmodels
 ?
 provide UI state and access to the business logic
+<!--SR:!2023-08-17,4,274-->
+
+what are the things that cannot change once an app is published
+?
+package name, signing certificate/
+package name is the fomain name in reverse.
+signing certificate represents the author.
+component name as intents refer to the component name
+
+
+what is androidmanifest.xml
+?
+public api 
+
+how to close access of component in manifest
+?
+by declaring it private.
+
+what is a shortcut
+?
+A shortcut is an Intent that directly specifies the ComponentName it should run.
+
+Give example of long running tasks
+?
+decoding a bitmap, accessing storage, working on a machine learning (ML) model, or performing network requests.
+
+what is Application class
+?
+The Application class in Android is the base class within an Android app that contains all other components such as activities and services. The Application class, or any subclass of the Application class, is instantiated before any other class when the process for your application/package is created.
+
+#### [](https://github.com/amitshekhariitbhu/android-interview-questions#activity-and-fragment)
+
+when to enable multidex
+?
+below api 21
+
+what is multidex
+?
+more than 64k functions need multiple dex file.
+byte code is stored in dex file.
+
+what is context
+?
+application, activity extend from context
+
+
+
 
 
 

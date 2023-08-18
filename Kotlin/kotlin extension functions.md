@@ -15,7 +15,7 @@ b.foo() // prints: foo(B)
 (b as A).foo() // 1, prints: foo(A)  
 val a: A = b  
 a.foo() // 1, prints: foo(A)
-<!--SR:!2023-08-13,4,270-->
+<!--SR:!2023-08-29,16,290-->
 
 how to make an extension function
 ?
@@ -30,6 +30,7 @@ do extension functions have access to private or protected members of the class
 ?
 no .  
 extension functions do not allow to break encapsulation
+<!--SR:!2023-08-17,4,272-->
 
 
 

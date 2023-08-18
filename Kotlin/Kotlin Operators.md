@@ -17,17 +17,19 @@ difference between == and ===
 ?
 == means content equality  
 === means instance equality
-<!--SR:!2023-08-13,4,270-->
+<!--SR:!2023-08-30,17,290-->
 
 Range data type in kotlin
 ?
 for (i in 1..10) { print(i) } // 12345678910
+<!--SR:!2023-08-17,4,272-->
 
 safe call operator in kotlin
 ?
 a?.doSomething  
 if a is non null , doSomething will be called else it will be ignored and null will be returned
 If-not-null shorthand
+<!--SR:!2023-08-17,4,272-->
 
 what is the elvis operator
 ?
@@ -39,6 +41,7 @@ elvis operator can be thought of as
 if  null 
 safe call operator can be thought of as 
 if not null
+<!--SR:!2023-08-17,4,272-->
 
 how to convert nullable type to non nullable type
 ?

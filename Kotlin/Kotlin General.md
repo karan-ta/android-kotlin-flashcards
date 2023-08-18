@@ -7,17 +7,17 @@ what does it mean by kotlin is a statically typed language
 ?
 type of every expression is known at compile time.  
 compiler can validate whether the object has the properties , methods used by the object.
-<!--SR:!2023-08-13,4,270-->
+<!--SR:!2023-08-27,14,290-->
 
 what are data classes
 ?
 They provide a concise syntax for creating immutable value objects.
-<!--SR:!2023-08-13,4,270-->
+<!--SR:!2023-08-28,15,290-->
 
 does kotlin enforce the functional style like haskell?
 ?
 kotlin lets you program in the functional style but does not enforce it.
-<!--SR:!2023-08-13,4,270-->
+<!--SR:!2023-08-27,14,290-->
 
 kotlin philosophy
 ?
@@ -25,12 +25,12 @@ pragmatic
 concise  
 safe  
 interoperable
-<!--SR:!2023-08-13,4,270-->
+<!--SR:!2023-08-28,15,290-->
 
 In kotlin , can user define their own operator ?
 ?
 No
-<!--SR:!2023-08-13,4,270-->
+<!--SR:!2023-08-30,17,290-->
 
 How does kotlin strive to remove the null pointer exception from program
 ?
@@ -73,6 +73,7 @@ if function returns an expression directly , we say that it has an expression bo
 can we ignore return type for function with expression body
 ?
 yes. kotlin compiler will infer the type from the expression.
+<!--SR:!2023-08-17,4,278-->
 
 How many times can val variable be initialized
 ?
@@ -106,14 +107,17 @@ you can put multiple classes in the same file and give any name to that file.
 does package heirarchy need to follow the directory heirarchy
 ?
 no
+<!--SR:!2023-08-17,4,278-->
 
 are if , when expressions or statements
 ?
 if, when are expressions that return a value.
+<!--SR:!2023-08-17,4,278-->
 
 In when - do you need to add a break statement in each branch.
 ?
 No
+<!--SR:!2023-08-17,4,278-->
 
 when 
 what can we pass in blank
@@ -141,15 +145,18 @@ includes 1 , 10
 half closed range
 ?
 for (i in 0 until 10)
+<!--SR:!2023-08-17,4,278-->
 
 
 Range can be used for which object
 ?
 for any instance whose class  implements the comparable interface
+<!--SR:!2023-08-17,4,278-->
 
 does kotlin differentiate between checked and unchecked exceptions
 ?
 no
+<!--SR:!2023-08-17,4,278-->
 
 Is try a statement or an expression
 ?
@@ -158,6 +165,7 @@ Integer.parseInt(reader.readLine())
 } catch (e: NumberFormatException) {  
 null  
 }
+<!--SR:!2023-08-17,4,278-->
 
 How to check if a lateinit var is already initialized
 ?
@@ -181,6 +189,7 @@ val h = HashmapOf (1 to "one", 2 to "two", 3 to "three")
 to is a function
 
 does kotlin use the standard java collection classes::yes
+<!--SR:!2023-08-17,4,278-->
 
 in java constant is public static final.  
 what is the equivalent in kotlin 
@@ -194,6 +203,7 @@ StringUtilKt.lastChar ()
 while using if , when is the else branch mdandatory
 ?
 If you're using if as an expression, for example, for returning its value or assigning it to a variable, the else branch is mandatory.
+<!--SR:!2023-08-17,4,278-->
 
 In function declaration, can we omit the Unit return type::yes
 
@@ -214,6 +224,12 @@ Int, right: Int
 Int) : Int {  
 return left + right  
 }
+
+what is inline
+?
+replace function code wherever its called.
+less function call overhead.
+
 
 
 

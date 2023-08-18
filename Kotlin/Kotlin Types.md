@@ -5,6 +5,7 @@ tags: review
 Number types in kotlin
 ?
 Byte, short, Int , Long , Float, Double
+<!--SR:!2023-08-17,4,270-->
 
 we can upsize literals but cannot upsize variables
 ?
