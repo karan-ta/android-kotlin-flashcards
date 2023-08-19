@@ -42,4 +42,46 @@ what is relationship between launch, async  and coroutine scope
 launch , async are extension functions to co routine scope.
 you can pass a suspending function as an argument.
 
+How to update value of a variable in a mutually exculsive way.
+or
+what is alternative to synchronized keyword in java
+?
+mutex.withLock { counter ++ }
+
+how to launch a coroutine in the global scope
+?
+GlobalScope.launch
+
+How to launch a coroutine in the viewmodelscope
+?
+viewModelScope.launch
+
+how to group two coroutines under a common scope
+?
+coroutineScope {
+    val deferred1 = async {loadImage(name1)}
+    val deferred2 = async {loadImage(name2)}
+    }
+    All the `async` coroutines become the children of this scope and, if the scope fails with an exception or is cancelled, all the children are cancelled, too.
+
+how does coroutinescopr lifecycle start and stop 
+?
+A CoroutineScope lifecycle starts as soon as it is created and ends when it is canceled or when it associated Job or SupervisorJob finishes. When that happens, the CoroutineScope is no longer active.
+
+why do we need CoroutineScope
+?
+we wish to control the lifecycle of a group of coroutines that we launch, so that we can cancel them and handle any exceptions.
+
+How to create a **CoroutineScope**
+?
+`**CoroutineScope(**someCoroutineContext**)**`. Most often, the `someCoroutineContext` is a dispatcher (e.g. `Dispatchers.IO` or `Dispatchers.Main)` plus a `Job` or `SupervisorJob`.
+val scope = CoroutineScope(Dispatchers.IO + SupervisorJob())
+
+
+
+
+
+
+
+
 

@@ -297,7 +297,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Android Permissions.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -370,7 +370,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Android Permissions.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -387,7 +387,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Android Permissions.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -410,7 +410,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Android Permissions.md"
+                "file": "README.md"
               }
             }
           },
@@ -443,8 +443,10 @@
   },
   "active": "79b3720074579c98",
   "lastOpenFiles": [
-    "Android/Android Fragments.md",
+    "Kotlin/Kotlin Coroutines.md",
+    "Interview questions.md",
     "Android Permissions.md",
+    "Android/Android Fragments.md",
     "Android/Android Intents.md",
     "Android/Android Broadcast.md",
     "Android/Android General.md",
@@ -454,9 +456,7 @@
     "Kotlin OOPS.md",
     "Kotlin/Kotlin Types.md",
     "README.md",
-    "Interview questions.md",
     "Android/Android WorkManager.md",
-    "Kotlin/Kotlin Coroutines.md",
     "Coding/Coding General.md",
     "Android/Android Activity.md",
     "Android/Android RecyclerView.md",

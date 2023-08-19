@@ -21,6 +21,18 @@ in recyclerview - how do you color alternate rows in the list
 
 what is deep linking
 
+difference between parcelable and serializable
+
+lock resource from two co routines
+
+room db explain in detail 
+
+is dao interface or class
+
+how to optimize large db table 
+
+
+
 
 
 
