@@ -30,7 +30,7 @@ do extension functions have access to private or protected members of the class
 ?
 no .  
 extension functions do not allow to break encapsulation
-<!--SR:!2023-08-17,4,272-->
+<!--SR:!2023-09-20,30,292-->
 
 
 

@@ -6,7 +6,7 @@ tags: review
 what is a service
 ?
 Once started, a service might continue running for some time, even after the user switches to another application.
-<!--SR:!2023-08-16,3,250-->
+<!--SR:!2023-09-14,24,270-->
 
 Give example of Foreground service
 ?
@@ -72,6 +72,7 @@ The service runs in the applications Main thread by default.
 what to do if service performs blocking or intensive operations
 ?
 create a new thread within the service if it performs intensive or blocking operations.
+<!--SR:!2023-08-25,4,270-->
 
 How to create a Service
 ?
@@ -112,6 +113,7 @@ If the service is started and is long-running, the system lowers its position in
 how to add service in manifest 
 ?
 service android:name=".ExampleService"
+<!--SR:!2023-08-25,4,270-->
 
 Which intent to use to start a service 
 ?
@@ -158,10 +160,12 @@ If an app registers to receive broadcasts, the app's receiver consumes resources
 which android version placed broadcast limitations
 ?
 To mitigate this problem, Android 7.0 (API level 24) placed limitations on broadcasts, as described in Background Optimization.
+<!--SR:!2023-08-24,1,210-->
 
 what is an implicit broadcast
 ?
 An implicit broadcast is a broadcast that does not target that app specifically.
+<!--SR:!2023-09-01,9,250-->
 
 which apps can no longer register broadcast receivers for implicit broadcast
 ?
@@ -191,6 +195,7 @@ The service is created when another component (a client) calls `[bindService()]
 With Api level 21 , how can you start a service.
 ?
 With JobScheduler
+<!--SR:!2023-08-31,8,250-->
 
 what is a broadcast
 ?

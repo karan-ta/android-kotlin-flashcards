@@ -31,6 +31,21 @@ is dao interface or class
 
 how to optimize large db table 
 
+how to reduce size of apk
+
+what is proguard
+
+what are flavours , build variant
+
+compilesdk , target sdk - https://stackoverflow.com/questions/26694108/what-is-the-difference-between-compilesdkversion-and-targetsdkversion
+
+is graphql a database
+
+
+
+
+
+
 
 
 

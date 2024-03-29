@@ -34,7 +34,7 @@ the parameter type can be inferred
   
 val a: (Int) -> Int = { it * 2 } // 1  
 val c: (String)->Unit = { println(it) } // 2
-<!--SR:!2023-08-27,14,290-->
+<!--SR:!2023-09-05,7,270-->
 
 pass a lambda to a function
 ?
@@ -71,7 +71,7 @@ execLambda (1,3) {op1:Int,op2:Int -> op1+op2 }
 execLambda (1,3) {op1:Int,op2:Int -> op1*op2 }  
   
 }
-<!--SR:!2023-08-23,10,270-->
+<!--SR:!2023-09-30,38,290-->
 
 lambda where parameters are not defined but are implicit
 ?

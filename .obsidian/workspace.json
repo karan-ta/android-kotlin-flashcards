@@ -297,14 +297,134 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Kotlin/Kotlin OOPS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "96348b9d095f3935",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kotlin/Kotlin OOPS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e64bb4e6631339db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kotlin/Kotlin Properties.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce8f2ef99a401f68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kotlin/Kotlin Functional (SAM) interfaces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77c93e559c28cef4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kotlin/Kotlin Functional (SAM) interfaces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f30a429ece78f20c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Android Fragments.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d018c5ba7791a8a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a15a77980dae2b94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Android General.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c447cf81e995a27e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Android/Jetpack Compose.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "acf29ea28a9395f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kotlin/Kotlin Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9f24bea325dd5a8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interview questions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 24
+        "currentTab": 34
       }
     ],
     "direction": "vertical"
@@ -333,7 +453,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "isInit",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -370,7 +490,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Interview questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -387,7 +507,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Interview questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -410,7 +530,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Interview questions.md"
               }
             }
           },
@@ -441,37 +561,37 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "79b3720074579c98",
+  "active": "9f24bea325dd5a8b",
   "lastOpenFiles": [
-    "Kotlin/Kotlin Coroutines.md",
-    "Interview questions.md",
-    "Android Permissions.md",
-    "Android/Android Fragments.md",
-    "Android/Android Intents.md",
-    "Android/Android Broadcast.md",
-    "Android/Android General.md",
-    "Android/Android Service.md",
-    "Kotlin/Kotlin keywords.md",
-    "Kotlin/Kotlin General.md",
-    "Kotlin OOPS.md",
-    "Kotlin/Kotlin Types.md",
     "README.md",
-    "Android/Android WorkManager.md",
-    "Coding/Coding General.md",
-    "Android/Android Activity.md",
-    "Android/Android RecyclerView.md",
-    "Android/Jetpack Compose.md",
-    "Kotlin/Kotlin Generics.md",
+    "Interview questions.md",
     "Kotlin/Kotlin Operators.md",
-    "Android/Android config.md",
+    "Kotlin/Kotlin Collections.md",
+    "Kotlin/Kotlin Arrays.md",
+    "Kotlin/Kotlin Types.md",
+    "Kotlin/Kotlin visibility modifiers.md",
+    "Kotlin/Kotlin Functional (SAM) interfaces.md",
+    "Android/Android Flow.md",
     "Kotlin/Kotlin Functions.md",
-    "Kotlin/kotlin lambda.md",
-    "Kotlin/kotlin extension functions.md",
-    "Kotlin Extension function.md",
+    "Android/Jetpack Compose.md",
+    "Android/Android General.md",
+    "Kotlin/Kotlin General.md",
+    "Android/Android Testing.md",
+    "Android/Android Activity.md",
+    "Android/Android Fragments.md",
+    "Android/Android config.md",
+    "Android/Android Broadcast.md",
+    "Kotlin/Kotlin Coroutines.md",
+    "Kotlin.md",
+    "Doubts.md",
+    "Kotlin/Kotlin Properties.md",
+    "Kotlin/Kotlin OOPS.md",
+    "Kotlin/Kotlin Inheritance.md",
+    "Kotlin/Kotlin keywords.md",
+    "Android/Android Service.md",
     "Coding",
     "Android",
     "Kotlin",
-    "SRS.md",
     "kotlin"
   ]
 }

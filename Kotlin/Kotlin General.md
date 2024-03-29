@@ -44,6 +44,7 @@ the check and the cast are combined into a single operation.
 If you have checked for the type then you do not need to cast it  
 if (value is String)  
 value.upperCase () // you can use string methods as check is done
+<!--SR:!2023-08-25,4,291-->
 
 explain how kotlin compilation works
 ?
@@ -73,7 +74,7 @@ if function returns an expression directly , we say that it has an expression bo
 can we ignore return type for function with expression body
 ?
 yes. kotlin compiler will infer the type from the expression.
-<!--SR:!2023-08-17,4,278-->
+<!--SR:!2023-09-24,34,298-->
 
 How many times can val variable be initialized
 ?
@@ -107,17 +108,17 @@ you can put multiple classes in the same file and give any name to that file.
 does package heirarchy need to follow the directory heirarchy
 ?
 no
-<!--SR:!2023-08-17,4,278-->
+<!--SR:!2023-09-23,33,298-->
 
 are if , when expressions or statements
 ?
 if, when are expressions that return a value.
-<!--SR:!2023-08-17,4,278-->
+<!--SR:!2023-09-23,33,298-->
 
 In when - do you need to add a break statement in each branch.
 ?
 No
-<!--SR:!2023-08-17,4,278-->
+<!--SR:!2023-09-24,34,298-->
 
 when 
 what can we pass in blank
@@ -127,6 +128,7 @@ any object, any expression
 what can the condition of when be when no argument is passed in when
 ?
 any boolean expression
+<!--SR:!2023-08-31,2,231-->
 
 what is return value of a block
 ?
@@ -145,18 +147,18 @@ includes 1 , 10
 half closed range
 ?
 for (i in 0 until 10)
-<!--SR:!2023-08-17,4,278-->
+<!--SR:!2023-09-25,35,298-->
 
 
 Range can be used for which object
 ?
 for any instance whose class  implements the comparable interface
-<!--SR:!2023-08-17,4,278-->
+<!--SR:!2023-09-21,31,298-->
 
 does kotlin differentiate between checked and unchecked exceptions
 ?
 no
-<!--SR:!2023-08-17,4,278-->
+<!--SR:!2023-09-22,32,298-->
 
 Is try a statement or an expression
 ?
@@ -165,11 +167,12 @@ Integer.parseInt(reader.readLine())
 } catch (e: NumberFormatException) {  
 null  
 }
-<!--SR:!2023-08-17,4,278-->
+<!--SR:!2023-09-20,30,298-->
 
 How to check if a lateinit var is already initialized
 ?
 if(foo_coloncolon bar.isInitialized) { println(foo.bar) }
+<!--SR:!2023-08-25,4,291-->
 
 Two forms of main
 ?
@@ -189,12 +192,13 @@ val h = HashmapOf (1 to "one", 2 to "two", 3 to "three")
 to is a function
 
 does kotlin use the standard java collection classes::yes
-<!--SR:!2023-08-17,4,278-->
+<!--SR:!2023-09-23,33,298-->
 
 in java constant is public static final.  
 what is the equivalent in kotlin 
 ?
 const
+<!--SR:!2023-09-01,9,271-->
 
 how to call a function defined in the file StringUtil.kt from java
 ?
@@ -203,7 +207,7 @@ StringUtilKt.lastChar ()
 while using if , when is the else branch mdandatory
 ?
 If you're using if as an expression, for example, for returning its value or assigning it to a variable, the else branch is mandatory.
-<!--SR:!2023-08-17,4,278-->
+<!--SR:!2023-09-22,32,298-->
 
 In function declaration, can we omit the Unit return type::yes
 

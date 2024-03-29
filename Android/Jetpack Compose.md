@@ -29,7 +29,7 @@ no side effects, dont return anything, dont access global variables.
 what are composables responsible for
 ?
 your composables are responsible for transforming the current application state into a UI every time the observable data updates.
-<!--SR:!2023-08-17,4,270-->
+<!--SR:!2023-09-16,26,290-->
 
 What is recomposition
 ?
@@ -64,6 +64,7 @@ Arrangement.Top
 Arrangement.SpaceBetween  
 Arrangement.SpaceEvenly  
 Arrangement.SpaceAround
+<!--SR:!2023-08-30,1,193-->
 
 Types of horizontal alignment in column
 ?
@@ -87,11 +88,12 @@ modifier = Modifier.fillMaxSize().scrollable (
 rememberScrollState (),  
 orientation=Orientation.Vertical  
 )
-<!--SR:!2023-08-14,1,230-->
+<!--SR:!2023-09-07,9,210-->
 
 padding for text element
 ?
 Text("Hello", modifier=Modifier.background(color = Color.Blue).padding(start = 30.dp, end=30.dp, top=10.dp, bottom = 5.dp )
+<!--SR:!2023-09-12,14,273-->
 
 padding across all axis
 ?
@@ -106,12 +108,12 @@ stateless vs stateful composable
 ?
 stateful => caller doesnt have to manage state.  
 stateful is less reusable and harder to test .
-<!--SR:!2023-08-17,4,270-->
+<!--SR:!2023-08-24,3,250-->
 
 What is recomposition
 ?
 Recomposition is typically triggered by a change to a State<T> object. Compose tracks these and runs all composables in the Composition that read that particular State<T>, and any composables that they call that cannot be skipped.
-<!--SR:!2023-08-16,3,250-->
+<!--SR:!2023-09-15,25,270-->
 
 first alphabet of composable function
 ?
@@ -131,7 +133,7 @@ you can only change the state of the UI
 How to center a column vertically
 ?
 Modifier.gravity (Alignment.cernterVertically)
-<!--SR:!2023-08-14,1,230-->
+<!--SR:!2023-08-24,1,190-->
 
 What do composable functions return
 ?
@@ -145,23 +147,24 @@ Surface(color = Color.Yellow) {
 content()  
 }  
 }}
-<!--SR:!2023-08-14,1,230-->
+<!--SR:!2023-08-30,7,230-->
 
 recomposing = how is it done
 ?
 Compose also looks at what data is needed by an individual composable so that it only needs to recompose components whose data has changed and can skip composing those that are not affected.
-<!--SR:!2023-08-16,3,250-->
+<!--SR:!2023-09-15,25,270-->
 
 How is recomposing done
 ?
 Under the hood, Compose uses a custom Kotlin compiler plugin so when the underlying data changes, the composable functions can be re-invoked to update the UI hierarchy.
+<!--SR:!2023-08-25,4,273-->
 
 How to add state to a composable
 ?
 To add internal state to a composable, use the mutableStateOf function, which gives a composable mutable memory.  
 To not have a different state for every recomposition, remember the mutable state using remember.  
 and, if there are multiple instances of the composable at different places on the screen, each copy will get its own version of the state. You can think of internal state as a private variable in a class.
-<!--SR:!2023-08-17,4,270-->
+<!--SR:!2023-09-24,34,290-->
 
 How to implement a non lazy list
 ?
@@ -181,13 +184,13 @@ you might need to build something unique to your app that requires measuring and
 How many parent , children does each element in the UI tree have
 ?
 one parent , many children
-<!--SR:!2023-08-17,4,270-->
+<!--SR:!2023-09-19,29,290-->
 
 which attributes does the Ui element have 
 ?
 Also, it has a location within its parent: an (x, y) position, and a size: a width and height.  
 location and size.
-<!--SR:!2023-08-16,3,250-->
+<!--SR:!2023-09-16,26,270-->
 
 What is a co routine
 ?
@@ -196,7 +199,7 @@ A coroutine is an instance of suspendable computation. It is conceptually simila
 From where we can call suspending functions
 ?
 we can call suspending functions from other suspending functions
-<!--SR:!2023-08-17,4,270-->
+<!--SR:!2023-09-19,29,290-->
 
 what is state hoisting
 ?
@@ -222,7 +225,12 @@ which data can be kept in remember , remembersaveable
 ?
 we should not keep any data in remember, remembersaveable that we are afraid of loosing as 
 the data is going to be destroyed whenever the composable disappears or goes out of composition
-<!--SR:!2023-08-17,4,270-->
+<!--SR:!2023-09-23,33,290-->
+
+how to make OutlinedTextField
+?
+pass value , onValueChange, label, modifiers, colors.
+label={Text()}, onValueChange = {}
 
 
 

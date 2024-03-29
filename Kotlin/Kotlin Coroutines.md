@@ -16,20 +16,20 @@ it starts with a co routine builder - a bridge from the normal to the suspending
 which are the co routine builders
 ?
 runblocking , launch , async
-<!--SR:!2023-08-17,4,270-->
+<!--SR:!2023-09-20,30,290-->
 
 what is runblocking
 ?
 runblocking is a coroutine builder that blocks the current thread 
 until all tasks of the co routine it creates finish
-<!--SR:!2023-08-17,4,270-->
+<!--SR:!2023-09-19,29,290-->
 
 what is launch
 ?
 launch creates a new co routine. 
 the new co routine gets suspended to release the thread for other tasks and resumes.
 the co routine created can resume on a different thread.
-<!--SR:!2023-08-17,4,270-->
+<!--SR:!2023-09-21,31,290-->
 
 what is async
 ?
@@ -71,6 +71,7 @@ A CoroutineScope lifecycle starts as soon as it is created and ends when it is c
 why do we need CoroutineScope
 ?
 we wish to control the lifecycle of a group of coroutines that we launch, so that we can cancel them and handle any exceptions.
+<!--SR:!2023-08-25,4,276-->
 
 How to create a **CoroutineScope**
 ?

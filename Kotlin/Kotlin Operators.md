@@ -22,14 +22,14 @@ difference between == and ===
 Range data type in kotlin
 ?
 for (i in 1..10) { print(i) } // 12345678910
-<!--SR:!2023-08-17,4,272-->
+<!--SR:!2023-09-16,26,292-->
 
 safe call operator in kotlin
 ?
 a?.doSomething  
 if a is non null , doSomething will be called else it will be ignored and null will be returned
 If-not-null shorthand
-<!--SR:!2023-08-17,4,272-->
+<!--SR:!2023-09-21,31,292-->
 
 what is the elvis operator
 ?
@@ -41,7 +41,7 @@ elvis operator can be thought of as
 if  null 
 safe call operator can be thought of as 
 if not null
-<!--SR:!2023-08-17,4,272-->
+<!--SR:!2023-08-24,3,252-->
 
 how to convert nullable type to non nullable type
 ?
@@ -53,7 +53,6 @@ what is the not null asertion operator:: !!
 
 what does !! do 
 ?
-
 it explicitly casts nullable type to non nullable type.  
 var y: String_question = "foo"  
 var size: Int = y!!.length
@@ -62,15 +61,11 @@ what is let
 ?
 let is a function defined in the kotlin standard library.  
 a_question.somefunc  
-  
 what if somefunc is not already defined and you want to define it right now.  
-  
 a_question.let{  
 println ("hi")  
 }  
-  
 if a is not null then only hi will be printed.  
-  
 a can be accessed inside let with the it variable.
 
 
